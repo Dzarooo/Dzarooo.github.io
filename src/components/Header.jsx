@@ -16,7 +16,7 @@ export const Header = ({ setActiveSite }) => {
     }
 
     return (
-        <header className="h-[5vh] bg-slate-50 flex items-center pl-5 pr-5 [box-shadow:0_20px_20px_5px_rgba(248,250,252,1)] justify-between">
+        <header className="h-[5vh] bg-slate-50 flex items-center pl-5 pr-5 justify-between">
             <h1 className="text-xl text-slate-900">React</h1>
             <div className="flex items-center gap-2">
                 <p className="cursor-pointer" onClick={() => { handleSiteChange("home") }}>Home</p>

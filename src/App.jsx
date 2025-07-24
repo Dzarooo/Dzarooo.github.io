@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="w-[100vw] min-h-[100vh] flex flex-col">
       <Header setActiveSite={setActiveSite} />
-      <div className="flex-1 mt-[30px]">
+      <div className="flex-1">
         {
           activeSite === 'home' ? <Home /> :
             activeSite === 'about' ? <AboutUs /> :
